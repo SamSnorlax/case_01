@@ -1,0 +1,14 @@
+switch(food){
+    case "fried rice":
+       Console.WriteLine("It cost you NT 200.");
+       break;
+    case "meat balls":
+       Console.WriteLine ("It cost you NT 180.");
+       break;
+    case "soda":
+       Console.WriteLine ("it cost you NT 60.");
+       break;
+    default:
+       Console.WriteLine ("Sorry, we do not sell"+food+".");
+
+}
